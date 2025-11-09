@@ -1,0 +1,59 @@
+.head {
+  font-family: 'Impact', sans-serif;
+  font-size: 70px;
+  color: #333; /* default color for text */
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.head:hover {
+    color: #1E90FF;           /* rest of letters turn dodger blue */
+    text-shadow: 2px 2px 6px #87CEFA;
+    font-size: 90px;
+}
+
+.head::first-letter {
+  color: #FFD700;   /* first letter turns gold on hover */
+  font-size: 90px;  /* first letter grows on hover */
+}
+ 
+.p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.circle {
+  width: 250px;         /* size of image */
+  height: 200px;
+  border-radius: 50%;   /* makes it a circle */
+  object-fit: cover;    /* keeps image proportions */
+}
+
+.pic {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.name {
+    text-align: center;
+}
+
+.brand {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.p2 {
+     display: flex;
+    gap: 5px;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.p2:hover {
+     transform: scale(1.1);
+}
+
